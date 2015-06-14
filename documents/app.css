@@ -1,0 +1,96 @@
+body {
+	font: normal 100%;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif;
+	-webkit-font-smoothing: antialiased;
+	font-size: 24px;
+}
+
+h1 {
+	float: left;
+	text-align: center;
+	padding: 10px 0 10px 0;
+	margin: 0 10px 0 10px;
+}
+
+h1#group-name {
+	float: left;
+}
+
+h1#date {
+	float: right;
+}
+
+#wrapper {
+	margin: 20px auto;
+	width: 600px;
+	background-color: #F2EFFB;
+}
+
+#current-points, #players-history {
+	clear: both;
+	float: left;
+	margin: 0 0 10px 0;
+	display: table;
+}
+
+
+#footer {
+	clear: both;
+	padding: 20px 0 10px 0;
+	text-align: center;
+}
+
+.player {
+	width: 280px;
+	height: 280px;
+	margin: 0 10px 0 10px;
+	float: left;
+	background-color: #F5ECCE;
+	font-size: 600%;
+	text-align: center;
+	line-height: 280px;
+	display: table-cell;
+	vertical-align: center;
+	position: relative;
+}
+
+.player span {
+	/*position: absolute;*/
+}
+
+.active {
+	background-color: #819FF7;
+}
+
+.history {
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+.history td {
+	width: 140px;
+	border-bottom: 1px solid #000;
+	text-align: center;
+}
+
+.served {
+	background-color: #819FF7;
+}
+
+.end {
+	color: #DF0101;
+	border-top: 2px solid #DF0101;
+	font-size: 200%;
+	padding: 5px 0;
+}
+
+.name {
+	position: absolute;
+	font-size: 24px;
+	float: left;
+	display: block;
+	line-height: 24px;
+	left: 10px;
+	color: #6E6E6E;
+	letter-spacing: 1px;
+}
